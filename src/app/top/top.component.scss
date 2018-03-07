@@ -1,0 +1,28 @@
+.top{
+  background: #317eeb;
+  height: 70px;
+  width: 100%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  position: relative;
+  z-index: 1000;
+  .row{
+    height: 100%;
+  }
+  .logo{
+    background: url(https://image.ibb.co/j5qvTS/logo.jpg) no-repeat !important ;
+    background-size: cover !important;
+  }
+  .profile{
+    height: 36px;
+    width: 36px;
+    background: #5c6bc0;
+    border-radius: 200px;
+    cursor: pointer;
+    .profile_name{
+      color: white;
+      font-size: 24px;
+    }
+  }
+}
+:host{
+}
